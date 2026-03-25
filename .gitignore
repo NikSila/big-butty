@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.turbo/
+.DS_Store
+
+# Secrets — NEVER commit
+.env
+.env.*
+*.env
+*.env.local
+*.pem
+*.key
+
+# WalletConnect / wallet session data
+.wc/
+.walletconnect/
+**/wc-session*
+**/walletconnect*session*
+
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
